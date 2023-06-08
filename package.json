@@ -1,0 +1,29 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "NeBrisati.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-emoji": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^9.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrijana85/lotide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrijana85/lotide/issues"
+  },
+  "homepage": "https://github.com/andrijana85/lotide#readme"
+}

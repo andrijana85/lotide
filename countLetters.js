@@ -27,6 +27,6 @@ const countLetters = function(string) {
   }
   return obj;
 };
-
+module.exports = countLetters;
 console.log(countLetters("lighthouse in the house"));
 console.log(countLetters("My name is Andrijana"));

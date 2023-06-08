@@ -32,6 +32,7 @@ const keyExample = {
 };
 
 console.log(findKey(keyExample, x => x.stars === 2));
+module.exports = findKey;
 //test
 assertEqual(findKey(keyExample, x => x.stars === 3), 'Akaleri');
 assertEqual(findKey(keyExample1, x => x.length === 9), 'name');

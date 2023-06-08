@@ -42,7 +42,9 @@ const eqObjects = function(object1, object2) {
   return true;
 
 };
+module.exports = eqObjects;
 //test
+
 const shirtObject = { color: "red", size: "medium" };
 
 const anotherShirtObject = { size: "medium", color: "red" };
