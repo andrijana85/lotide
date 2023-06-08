@@ -32,6 +32,7 @@ const assertArraysEqual = function(array1, array2) {
     console.log(` ❌Assertion Failed ${array1} !== ${array2}`);
   }
 };
+
 // test
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 // const results1 = takeUntil(data1, x => x < 0);
