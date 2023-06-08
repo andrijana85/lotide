@@ -26,11 +26,11 @@ const middle = function(array) {
   let m = array.length / 2;
  
   if (array.length <= 2) {
-    console.log([]);
+    return [];
   } else if (array.length % 2 === 1) {
-    console.log(array[n]);
+    return array[n];
   } else if (array.length % 2 === 0) {
-    console.log([array[m - 1], array[m]]);
+    return [array[m - 1], array[m]];
 
   }
 };
