@@ -16,11 +16,11 @@
 //     console.log(`Assertion Failed ${array1} !== ${array2}`);
 //   }
 // };
-//If array has 0-2 elements return an empty array
-// else if array has odd number of elements
-// return an array with one middle element (array at the middle index (Math.floor(array.length/2)))
-// else if array has even number of elements
-// return an array with two middle elements
+// // If array has 0-2 elements return an empty array
+// // else if array has odd number of elements
+// // return an array with one middle element (array at the middle index (Math.floor(array.length/2)))
+// // else if array has even number of elements
+// // return an array with two middle elements
 const middle = function(array) {
   let n = Math.floor(array.length / 2);  // array at the middle index
   let m = array.length / 2;
