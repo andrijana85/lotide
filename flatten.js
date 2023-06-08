@@ -21,15 +21,16 @@ const eqArrays = function(array1, array2) {
 
 const flatten = function(nestedArrays) {
   let newArray = [];
-  for( let i = 0; i < nestedArrays.length; i++) {
+  for (let i = 0; i < nestedArrays.length; i++) {
     newArray.push(nestedArrays[i]);
-    if(Array.isArray(nestedArrays)) {
-      for( let j = 0; j < nestedArrays[j].length; j++) {
-          console.log(i);
+    if (Array.isArray(nestedArrays)) {
+      for (let j = 0; j < nestedArrays[j].length; j++) {
+        console.log(i);
       }
     }
   }
   console.log(newArray);
-}
+};
+
 flatten([1, 2, [3,4], 5, [6]]);
 flatten([1, 2, 5, [6]]);
