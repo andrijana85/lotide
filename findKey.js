@@ -5,7 +5,7 @@ const assertEqual = function(actual, expected) {
     console.log(`❌Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-function findKey which takes in an object and a callback
+// function findKey which takes in an object and a callback
 const findKey = function(objects, callback) {
   //loop over the object with for...in
   for (let key in objects) {

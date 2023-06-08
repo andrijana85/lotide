@@ -7,8 +7,7 @@ const letterPositions = function(sentence) {
         let currentContent = results[sentence[i]];
         currentContent.push(i);
         results[sentence[i]] = currentContent;
-      }
-      else {
+      } else {
         results[sentence[i]] = [i];
       }
     }
