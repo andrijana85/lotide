@@ -37,7 +37,7 @@ The following functions are currently implemented:
 * `findKeyByValue(...)`: the function takes in an object and a value. It should scan the object and return the first key which contains the given value.
 * `flatten(...)`: the function takes in an array containing elements including nested arrays of elements, and return a "flattened" version of the array
 * `head(...)`: the function that returns the first item in the array
-* `letterPositions(...)`: the function returns all the indices (zero-based positions) in the string where each character is found.
+* `letterPositions(string)`: the function returns all the indices (zero-based positions) in the string where each character is found.
 * `map(...)`: the function takes in an array and callback, returns a new array based on the results of the callback function.
 * `middle(...)`: takes in an array and returns the middle-most element(s) of the given array.
 * `tail(...)`: the function which returns everything except for the first item of the provided array.
