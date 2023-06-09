@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "andrijana85/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "NeBrisati.js",
+  "description": "lotide library",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/andrijana85/lotide.git"
   },
-  "author": "",
+  "author": "andrijana",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/andrijana85/lotide/issues"
