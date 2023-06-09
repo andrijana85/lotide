@@ -12,7 +12,6 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Install it:**
 
-
 `npm i andrijana85lotide`
 
 **Require it:**
@@ -27,20 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `assertArraysEqual(...)`: the function takes in two arraysand console.log the certain message.
-* `assertEqual(...)`: the function that compare the two values it takes in and print out a message telling us if they match or not.
-* `assertObjectEqual(...)`: takes in two objects and console.log an appropriate message to the console.(similar to assertArrayEqual)
-* `countLetters(...)`: the function takes in a sentence and then returns a count of each of the letters in that sentence.
-* `countOnly(...)`: the function takes in a collection of items and returns counts for a specific subset of those items.
-* `eqArrays(...)`:the function returns true or false, based on a perfect match between two arrays 
-* `eqObjects(...)`: the function takes in two objects and returns true or false, based on a perfect match.
-* `findKey(...)`: the function takes in an object and a callback. It should scan the object and return the first key for which the callback returns a truthy value. If no key is found, then it should return undefined.
-* `findKeyByValue(...)`: the function takes in an object and a value. It should scan the object and return the first key which contains the given value.
-* `flatten(...)`: the function takes in an array containing elements including nested arrays of elements, and return a "flattened" version of the array
-* `head(...)`: the function that returns the first item in the array
+* `assertArraysEqual(...)`: a function that prints an appropriate message after comparing the two arrays.
+* `assertEqual(...)`: a function that takes in 2 values and returns true if they are equal and false otherwise
+* `assertObjectEqual(...)`: a function that takes in 2 objects and returns true if they are equal and false otherwise.
+* `countLetters(...)`: a function that takes in a sentence and returns a count of each of the letters in the sentence.
+* `countOnly(...)`: a function that takes in a collection of items and returns a specific subset of those items.
+* `eqArrays(...)`:a function that takes in 2 arrays and returns true if the arrays are equal and false otherwise.
+* `eqObjects(...)`: a function that takes in 2 objects and return true if they are equal and false otherwise
+* `findKey(...)`: a function that takes in an object and callback and returns the first key that meets the criteria specified in callback.
+* `findKeyByValue(...)`: a function that takes in an object and a value and returns the first key that corresponds to that value.
+* `flatten(...)`: a function that takes in an array that contains elements including nested array of elements and returns a flattened version of the array.
+* `head(...)`: a function that takes in an array and returns the first element in the array.
 * `letterPositions(string)`: the function returns all the indices (zero-based positions) in the string where each character is found.
-* `map(...)`: the function takes in an array and callback, returns a new array based on the results of the callback function.
-* `middle(...)`: takes in an array and returns the middle-most element(s) of the given array.
-* `tail(...)`: the function which returns everything except for the first item of the provided array.
-* `takeUntil(...)`: the function takes in an array and callback, collects items from a provided array until the callback provided returns a truthy value.
-* `without(...)`: the function removes unwanted elements and returns a subset of a given array
+* `map(...)`: a function that takes in an array and a callback and returns a new array based on the results of the callback on each item in the array.
+* `middle(...)`: a function that takes in an array and returns middle most element of the array
+* `tail(...)`: a function that takes in an array and returns everything except the first element of the array
+* `takeUntil(...)`: a function that takes in an array and callback and returns a slice of the array based on the criteria specified in the callback.
+* `without(...)`: a function that prints an appropriate message after comparing the two arrays.
