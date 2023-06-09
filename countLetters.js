@@ -1,11 +1,11 @@
 
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+// const assertEqual = function(actual, expected) {
+//   if (actual === expected) {
+//     console.log(`Assertion Passed: ${actual} === ${expected}`);
+//   } else {
+//     console.log(`Assertion Failed: ${actual} !== ${expected}`);
+//   }
+// };
 // declare an empty object obj to store the count of each letter.
 // Create a function called countLetters
 // The function uses for...of loop to iterate over each character letter in the string.
